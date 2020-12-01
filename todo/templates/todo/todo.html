@@ -1,0 +1,60 @@
+{% extends 'todo/base.html' %}
+{% block content %}
+
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                {#                <form class="form-inline justify-content-center" method="POST" id="createTaskForm"#}
+                {#                      data-url="{% url 'todos-list-url' %}">#}
+                {#                    {% csrf_token %}#}
+                {#                    {% for f in form %}#}
+                {#                    <div class="mx-3 form-group">#}
+                {#                        {{ form.title }}#}
+                {#                        {{ form.description }}#}
+                {#                    </div>#}
+                {#                    {%endfor%}#}
+                {#                    <button type="button" id="createBtn" name="create" class="btn btn-outline-success">Create</button>#}
+                {#                </form>#}
+                <form method="POST" id="createTaskForm"  data-url="{% url 'todos-list-url' %}">
+                    {% csrf_token %}
+                    <div class="form-group">
+                        <label for="title">Title</label>
+                       {{ form.title }}
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Textarea</label>
+                        {{ form.description }}
+                    </div>
+                    <button type="button" id="createBtn" name="create" class="btn btn-outline-success">Create</button>
+                </form>
+            </div>
+            <div class="col-8">
+                <div class="row">
+
+                    {% for task in tasks %}
+                        {#                        <div class="card mb-3" id="taskCard" data-id="{{ task.id }}"#}
+                        {#                             style="{% if task.completed %} text-decoration:line-through {% endif %}">#}
+                        {#                            <div class="card-body outline-info">#}
+                        {#                                {{ task.title }}#}
+                        {#                                <button type="button" class="close float-right" data-id="{{ task.id }}">#}
+                        {#                                    <span aria-hidden="true">&times;</span>#}
+                        {#                                </button>#}
+                        {#                            </div>#}
+                        {#                        </div>#}
+                        <div class="col-6">
+                            <div class="card" style="width: 18rem;" data-id="{{ task.id }}" style="{% if task.completed %} text-decoration:line-through {% endif %}">
+                                <div class="card-body">
+                                    <h5 class="card-title">{{ task.title }}</h5>
+                                    <p class="card-text">{{ task.description }}</p>
+                                    <p><small>{{ task.date }}</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}
