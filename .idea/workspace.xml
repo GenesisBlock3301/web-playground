@@ -3,32 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8c15139f-fe3c-44d5-8325-bb526a17fcfd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dj_ajax_todo/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dj_ajax_todo/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dj_ajax_todo/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dj_ajax_todo/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dj_ajax_todo/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/migrations/0002_auto_20201201_2319.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/migrations/0003_auto_20201201_2326.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/migrations/0004_auto_20201201_2338.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/static/todo/bootstrap/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/static/todo/bootstrap/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/static/todo/js/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/static/todo/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/static/todo/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/templates/todo/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/templates/todo/todo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/views.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,29 +10,92 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/web_playground$test.coverage" NAME="test Coverage Results" MODIFIED="1607069500006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/employeeManagement/app" />
+    <SUITE FILE_PATH="coverage/web_playground$bookManager.coverage" NAME="bookManager Coverage Results" MODIFIED="1607073598276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/employeeManagement/app" />
+    <SUITE FILE_PATH="coverage/web_playground$models.coverage" NAME="models Coverage Results" MODIFIED="1607070597481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/employeeManagement/app" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bookDatabase" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/employeeManagement/run.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/djangoAjaxCrud/enroll/templates/home/ajax.html">
+        <entry file="file://$PROJECT_DIR$/employeeManagement/app/bookManager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-442">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            <state relative-caret-position="172">
+              <caret line="47" column="42" lean-forward="true" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/djangoAjaxCrud/enroll/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://D:/condaSource/envs/django-playground/Lib/site-packages/flask_sqlalchemy/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="833" selection-start-line="833" selection-end-line="833" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/condaSource/envs/django-playground/Lib/site-packages/flask/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="97" selection-start-line="97" selection-end-line="97" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/employeeManagement/app/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/employeeManagement/app/templates/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/djangoAjaxCrud/enroll/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="306">
               <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -88,7 +125,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/djangoAjaxCrud/enroll/templates/home/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-226">
+            <state relative-caret-position="238">
               <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -103,8 +140,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -141,6 +178,15 @@
         <option value="$PROJECT_DIR$/djangoAjaxCrud/enroll/views.py" />
         <option value="$PROJECT_DIR$/djangoAjaxCrud/enroll/templates/home/home.html" />
         <option value="$PROJECT_DIR$/djangoAjaxCrud/enroll/templates/home/ajax.html" />
+        <option value="$PROJECT_DIR$/employeeManagement/app/__init__.py" />
+        <option value="$PROJECT_DIR$/employeeManagement/app/templates.py" />
+        <option value="$PROJECT_DIR$/employeeManagement/app/views.py" />
+        <option value="$PROJECT_DIR$/employeeManagement/config.py" />
+        <option value="$PROJECT_DIR$/employeeManagement/run.py" />
+        <option value="$PROJECT_DIR$/employeeManagement/app/test.py" />
+        <option value="$PROJECT_DIR$/employeeManagement/app/models.py" />
+        <option value="$PROJECT_DIR$/employeeManagement/app/templates/home.html" />
+        <option value="$PROJECT_DIR$/employeeManagement/app/bookManager.py" />
       </list>
     </option>
   </component>
@@ -156,44 +202,36 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="django-playground" type="b2602c69:ProjectViewProjectNode" />
-              <item name="django-playground" type="462c0819:PsiDirectoryNode" />
+              <item name="web-playground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-playground" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="django-playground" type="b2602c69:ProjectViewProjectNode" />
-              <item name="django-playground" type="462c0819:PsiDirectoryNode" />
-              <item name="djangoAjaxCrud" type="462c0819:PsiDirectoryNode" />
+              <item name="web-playground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-playground" type="462c0819:PsiDirectoryNode" />
+              <item name="employeeManagement" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="django-playground" type="b2602c69:ProjectViewProjectNode" />
-              <item name="django-playground" type="462c0819:PsiDirectoryNode" />
-              <item name="djangoAjaxCrud" type="462c0819:PsiDirectoryNode" />
-              <item name="enroll" type="462c0819:PsiDirectoryNode" />
+              <item name="web-playground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-playground" type="462c0819:PsiDirectoryNode" />
+              <item name="employeeManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="django-playground" type="b2602c69:ProjectViewProjectNode" />
-              <item name="django-playground" type="462c0819:PsiDirectoryNode" />
-              <item name="djangoAjaxCrud" type="462c0819:PsiDirectoryNode" />
-              <item name="enroll" type="462c0819:PsiDirectoryNode" />
+              <item name="web-playground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-playground" type="462c0819:PsiDirectoryNode" />
+              <item name="employeeManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="django-playground" type="b2602c69:ProjectViewProjectNode" />
-              <item name="django-playground" type="462c0819:PsiDirectoryNode" />
-              <item name="djangoAjaxCrud" type="462c0819:PsiDirectoryNode" />
-              <item name="enroll" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,6 +267,81 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Python.bookManager">
+    <configuration name="bookManager" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="django-playground" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/employeeManagement/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/employeeManagement/app/bookManager.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="django-playground" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/employeeManagement/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/employeeManagement/app/models.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="django-playground" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/employeeManagement/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/employeeManagement/app/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.bookManager" />
+        <item itemvalue="Python.models" />
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -242,37 +355,39 @@
       <workItem from="1606819771403" duration="18378000" />
       <workItem from="1606839824687" duration="6350000" />
       <workItem from="1606875790148" duration="18744000" />
+      <workItem from="1606992647854" duration="1640000" />
+      <workItem from="1607067985145" duration="5236000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43472000" />
+    <option name="totallyTimeSpent" value="50348000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.072013095" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.38297874" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
@@ -302,16 +417,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/condaSource/envs/django-playground/Lib/site-packages/django/urls/resolvers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="597" selection-start-line="597" selection-end-line="597" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todo_js/admin.py" />
-    <entry file="file://$PROJECT_DIR$/todo_js/models.py" />
-    <entry file="file://$PROJECT_DIR$/todo_js/urls.py" />
     <entry file="file://$PROJECT_DIR$/templates/base/base.html" />
     <entry file="file://$PROJECT_DIR$/todo_js/templates/todo.html" />
     <entry file="file://$PROJECT_DIR$/todo_js/forms.py" />
@@ -323,22 +428,8 @@
     <entry file="file://$PROJECT_DIR$/todo_js/static/todo/js/main.js" />
     <entry file="file://$PROJECT_DIR$/todo_js/views.py" />
     <entry file="file://$PROJECT_DIR$/playground/settings.py" />
-    <entry file="file://$PROJECT_DIR$/dj_ajax_todo/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dj_ajax_todo/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dj_ajax_todo/urls.py" />
+    <entry file="file://$PROJECT_DIR$/dj_ajax_todo/settings.py" />
     <entry file="file://D:/condaSource/envs/django-playground/Lib/site-packages/django/forms/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -354,89 +445,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/todo/static/todo/js/LICENSE.txt" />
-    <entry file="file://$PROJECT_DIR$/todo/templates/todo/base.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todo/migrations/0001_initial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todo/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todo/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todo/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todo/templates/todo/todo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todo/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todo_js/todo/static/enroll/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todo_js/todo/static/enroll/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todo_js/todo/static/enroll/js/popper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1851">
-          <caret line="638" column="38" selection-start-line="638" selection-start-column="38" selection-end-line="638" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todo_js/todo/static/enroll/js/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184807">
-          <caret line="10871" column="4" selection-start-line="10871" selection-start-column="4" selection-end-line="10871" selection-end-column="4" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todo_js/todo/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/todo/templates/todo/base.html" />
+    <entry file="file://$PROJECT_DIR$/todo/migrations/0001_initial.py" />
+    <entry file="file://$PROJECT_DIR$/todo/models.py" />
+    <entry file="file://$PROJECT_DIR$/todo/forms.py" />
+    <entry file="file://$PROJECT_DIR$/todo/admin.py" />
+    <entry file="file://$PROJECT_DIR$/todo/templates/todo/todo.html" />
+    <entry file="file://$PROJECT_DIR$/todo/urls.py" />
+    <entry file="file://$PROJECT_DIR$/todo_js/todo/static/enroll/css/bootstrap.css" />
+    <entry file="file://$PROJECT_DIR$/todo_js/todo/static/enroll/js/bootstrap.js" />
+    <entry file="file://$PROJECT_DIR$/todo_js/todo/static/enroll/js/popper.js" />
+    <entry file="file://$PROJECT_DIR$/todo_js/todo/static/enroll/js/jquery.js" />
+    <entry file="file://$PROJECT_DIR$/todo_js/todo/models.py" />
     <entry file="file://$PROJECT_DIR$/djangoAjaxCrud/enroll/static/enroll/js/jquery.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -467,27 +487,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/djangoAjaxCrud/enroll/models.py">
+    <entry file="file://$PROJECT_DIR$/todo/views.py" />
+    <entry file="file://$PROJECT_DIR$/todo/static/todo/js/main.js" />
+    <entry file="file://$PROJECT_DIR$/djangoAjaxCrud/enroll/templates/home/ajax.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        <state relative-caret-position="-289">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/todo/views.py">
+    <entry file="file://$PROJECT_DIR$/djangoAjaxCrud/enroll/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employeeManagement/app/templates.py" />
+    <entry file="file://$PROJECT_DIR$/employeeManagement/app/views.py" />
+    <entry file="file://$PROJECT_DIR$/employeeManagement/app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employeeManagement/config.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employeeManagement/run.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangoAjaxCrud/enroll/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        <state relative-caret-position="306">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
           <folding>
-            <element signature="e#0#44#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todo/static/todo/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-348">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -498,22 +527,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/djangoAjaxCrud/enroll/views.py">
+    <entry file="file://$PROJECT_DIR$/djangoAjaxCrud/enroll/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/djangoAjaxCrud/enroll/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/djangoAjaxCrud/enroll/templates/home/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-226">
+        <state relative-caret-position="238">
           <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -521,10 +544,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/djangoAjaxCrud/enroll/templates/home/ajax.html">
+    <entry file="file://$PROJECT_DIR$/employeeManagement/app/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-442">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        <state relative-caret-position="102">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employeeManagement/app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/condaSource/envs/django-playground/Lib/site-packages/flask_sqlalchemy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="833" selection-start-line="833" selection-end-line="833" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/condaSource/envs/django-playground/Lib/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employeeManagement/app/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employeeManagement/app/bookManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="47" column="42" lean-forward="true" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

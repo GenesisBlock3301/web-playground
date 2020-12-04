@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>home</title>
+</head>
+<body>
+<form action="/" method="post">
+    <input type="text" name="title">
+    <input type="submit" value="add">
+</form>
+<h1>Books</h1>
+{% if status %}
+    {% for book in books %}
+        <p>{{ book.title }}</p>
+        <form action="./update" method="post">
+            <input type="hidden" value="{{ book.title }}" name="oldtitle">
+            <input type="text" value="{{ book.title }}" name="newtitle">
+            <input type="submit" value="Update">
+        </form>
+        <form action="./delete" method="post">
+            <input type="hidden" value="{{ book.title }}" name="title">
+            <input type="submit" value="Delete">
+        </form>
+    {% endfor %}
+{% else %}
+    <p>empty</p>
+{% endif %}
+</body>
+</html>
