@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Login Form</h1>
+    {% if status %}
+        <p class="text-danger">{{ status }}</p>
+    {% endif %}
+<form method="post">
+    {% csrf_token %}
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Username</label>
+            {{ form.username }}
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            {{ form.password }}
+        </div>
+    <p><a style="text-decoration: none" href="{% url 'password_reset' %}">forgot or reset password</a></p><br>
+        <button type="submit" class="btn btn-primary">Login</button>
+
+     <p>If you are not register <a style="text-decoration: none" href="{% url 'register-user' %}">Register</a></p><br>
+    </form>
+{% endblock %}

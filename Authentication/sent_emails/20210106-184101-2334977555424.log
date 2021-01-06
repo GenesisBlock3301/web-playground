@@ -1,0 +1,26 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Subject: Password reset on 127.0.0.1:8000
+From: webmaster@localhost
+To: mdnuraminsifat380@gmail.com
+Date: Wed, 06 Jan 2021 12:41:01 -0000
+Message-ID: 
+ <160993686132.3352.90481971513899588@DESKTOP-3AKR98G.www.tendawifi.com>
+
+
+You're receiving this email because you requested a password reset for your user account at 127.0.0.1:8000.
+
+Please go to the following page and choose a new password:
+
+http://127.0.0.1:8000/accounts/reset/NA/ag2h8d-0f166e4ec2407f6a5491c4555d6af66b/
+
+Your username, in case you’ve forgotten: nas1
+
+Thanks for using our site!
+
+The 127.0.0.1:8000 team
+
+
+
+-------------------------------------------------------------------------------

@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8c15139f-fe3c-44d5-8325-bb526a17fcfd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoAjaxCrud/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/djangoAjaxCrud/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoAjaxCrud/enroll/templates/home/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/djangoAjaxCrud/enroll/templates/home/home.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,26 +42,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/employeeManagement/run.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/employeeManagement/app/bookManager.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="47" column="42" lean-forward="true" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://D:/condaSource/envs/django-playground/Lib/site-packages/flask_sqlalchemy/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
+            <state relative-caret-position="2168">
               <caret line="833" selection-start-line="833" selection-end-line="833" />
             </state>
           </provider>
@@ -68,26 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://D:/condaSource/envs/django-playground/Lib/site-packages/flask/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="646">
               <caret line="97" selection-start-line="97" selection-end-line="97" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/employeeManagement/app/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/employeeManagement/app/templates/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -125,11 +92,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/djangoAjaxCrud/enroll/templates/home/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="-493">
+              <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/djangoAjaxCrud/enroll/templates/home/ajax.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="56" column="64" lean-forward="true" selection-start-line="53" selection-start-column="24" selection-end-line="56" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -176,8 +149,6 @@
         <option value="$PROJECT_DIR$/djangoAjaxCrud/enroll/models.py" />
         <option value="$PROJECT_DIR$/djangoAjaxCrud/enroll/urls.py" />
         <option value="$PROJECT_DIR$/djangoAjaxCrud/enroll/views.py" />
-        <option value="$PROJECT_DIR$/djangoAjaxCrud/enroll/templates/home/home.html" />
-        <option value="$PROJECT_DIR$/djangoAjaxCrud/enroll/templates/home/ajax.html" />
         <option value="$PROJECT_DIR$/employeeManagement/app/__init__.py" />
         <option value="$PROJECT_DIR$/employeeManagement/app/templates.py" />
         <option value="$PROJECT_DIR$/employeeManagement/app/views.py" />
@@ -187,6 +158,8 @@
         <option value="$PROJECT_DIR$/employeeManagement/app/models.py" />
         <option value="$PROJECT_DIR$/employeeManagement/app/templates/home.html" />
         <option value="$PROJECT_DIR$/employeeManagement/app/bookManager.py" />
+        <option value="$PROJECT_DIR$/djangoAjaxCrud/enroll/templates/home/home.html" />
+        <option value="$PROJECT_DIR$/djangoAjaxCrud/enroll/templates/home/ajax.html" />
       </list>
     </option>
   </component>
@@ -202,7 +175,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,28 +182,11 @@
               <item name="web-playground" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-playground" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="web-playground" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-playground" type="462c0819:PsiDirectoryNode" />
-              <item name="employeeManagement" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-playground" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-playground" type="462c0819:PsiDirectoryNode" />
-              <item name="employeeManagement" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-playground" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-playground" type="462c0819:PsiDirectoryNode" />
-              <item name="employeeManagement" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,7 +194,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -357,17 +312,18 @@
       <workItem from="1606875790148" duration="18744000" />
       <workItem from="1606992647854" duration="1640000" />
       <workItem from="1607067985145" duration="5236000" />
+      <workItem from="1607440186383" duration="1751000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50348000" />
+    <option name="totallyTimeSpent" value="52099000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1452345" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -381,7 +337,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.38297874" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.06546645" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -489,26 +445,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/todo/views.py" />
     <entry file="file://$PROJECT_DIR$/todo/static/todo/js/main.js" />
-    <entry file="file://$PROJECT_DIR$/djangoAjaxCrud/enroll/templates/home/ajax.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/djangoAjaxCrud/enroll/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/employeeManagement/app/templates.py" />
     <entry file="file://$PROJECT_DIR$/employeeManagement/app/views.py" />
-    <entry file="file://$PROJECT_DIR$/employeeManagement/app/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/employeeManagement/app/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/employeeManagement/config.py" />
+    <entry file="file://$PROJECT_DIR$/employeeManagement/run.py" />
+    <entry file="file://$PROJECT_DIR$/employeeManagement/app/test.py" />
+    <entry file="file://$PROJECT_DIR$/employeeManagement/app/models.py" />
+    <entry file="file://$PROJECT_DIR$/employeeManagement/app/templates/home.html" />
+    <entry file="file://$PROJECT_DIR$/employeeManagement/app/bookManager.py" />
+    <entry file="file://D:/condaSource/envs/django-playground/Lib/site-packages/flask_sqlalchemy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2168">
+          <caret line="833" selection-start-line="833" selection-end-line="833" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/employeeManagement/config.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/employeeManagement/run.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://D:/condaSource/envs/django-playground/Lib/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/djangoAjaxCrud/enroll/views.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -536,56 +497,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/djangoAjaxCrud/enroll/templates/home/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="-493">
+          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/employeeManagement/app/test.py">
+    <entry file="file://$PROJECT_DIR$/djangoAjaxCrud/enroll/templates/home/ajax.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/employeeManagement/app/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/condaSource/envs/django-playground/Lib/site-packages/flask_sqlalchemy/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="833" selection-start-line="833" selection-end-line="833" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/condaSource/envs/django-playground/Lib/site-packages/flask/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="97" selection-start-line="97" selection-end-line="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/employeeManagement/app/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/employeeManagement/app/bookManager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="47" column="42" lean-forward="true" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="432">
+          <caret line="56" column="64" lean-forward="true" selection-start-line="53" selection-start-column="24" selection-end-line="56" selection-end-column="64" />
         </state>
       </provider>
     </entry>
