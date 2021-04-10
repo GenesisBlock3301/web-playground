@@ -20,3 +20,16 @@ class EmployeeModel(db.Model):
 
     def __str__(self):
         return f"{self.name}:{self.employee_id}"
+
+    def create(self):
+        db.session.add(self)
+        db.session.commit()
+        return self
+
+    def delete(self):
+        db.session.delete(self)
+        db.session.commit()
+
+    def json(self):
+        return {"employee_id": self.employee_id, 'name': self.name, "age": self.age, "position": self.position}
+
